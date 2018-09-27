@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MyInvoice App</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Logout</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_register">Register</string>
+    <string name="title_activity_save_invoice">Save Invoice</string>
+    <string name="title_activity_home">MyInvoice App</string>
+</resources>

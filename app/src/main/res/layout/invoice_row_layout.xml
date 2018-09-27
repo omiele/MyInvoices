@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:descendantFocusability="blocksDescendants"
+                android:weightSum="1"
+                android:id="@+id/mainLayout1">
+
+    <ImageView
+        android:id="@+id/icon12"
+        android:layout_width="80dip"
+        android:layout_height="80dip"
+        android:layout_margin="5dp">
+    </ImageView>
+
+    <TextView
+        android:id="@+id/title12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Invoice 24"
+        android:textColor="#13eaa2"
+        android:textSize="18sp"
+        android:layout_alignTop="@+id/icon12"
+        android:layout_toRightOf="@+id/icon12"
+        android:layout_toEndOf="@+id/icon12">
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Type"
+        android:id="@+id/txt_type"
+        android:layout_alignBottom="@+id/icon12"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="date12"
+        android:id="@+id/tvdate"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/icon12"
+        android:layout_toEndOf="@+id/icon12"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="shop name"
+        android:id="@+id/tvshopName"
+        android:layout_alignTop="@+id/txt_type"
+        android:layout_alignLeft="@+id/tvdate"
+        android:layout_alignStart="@+id/tvdate"/>
+
+
+</RelativeLayout>
